@@ -1,0 +1,20 @@
+.ui-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(13, 23, 43, .58);
+}
+.ui-modal {
+  width: min(100%, 480px);
+  border-radius: 17px;
+  background: white;
+  box-shadow: 0 24px 80px rgba(7, 21, 45, .28);
+}
+.ui-modal-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 22px; border-bottom: 1px solid #edf0f5; }
+.ui-modal-header h2 { margin: 0; font-size: 1.15rem; }
+.ui-modal-x { border: 0; background: transparent; color: #69758b; font-size: 1.7rem; cursor: pointer; }
+.ui-modal-content { padding: 22px; color: #63718a; line-height: 1.65; }
+.ui-modal-footer { display: flex; justify-content: flex-end; padding: 0 22px 20px; }

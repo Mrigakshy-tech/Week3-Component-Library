@@ -1,0 +1,23 @@
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 17px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s ease, opacity .15s ease;
+}
+.ui-button:hover:not(:disabled) { transform: translateY(-1px); }
+.ui-button:focus-visible { outline: 3px solid #a9bcff; outline-offset: 2px; }
+.ui-button:disabled { opacity: .45; cursor: not-allowed; }
+.ui-button--primary { color: white; background: #315efb; }
+.ui-button--secondary { color: #2948b8; background: #e9edff; }
+.ui-button--outline { color: #315efb; background: white; border-color: #b9c8ff; }
+.ui-button--danger { color: white; background: #dc3e55; }
+.ui-button--ghost { color: #53627b; background: transparent; }
+.ui-button--small { padding: 7px 11px; font-size: .82rem; }
+.ui-button--medium { padding: 10px 16px; font-size: .94rem; }
+.ui-button--large { padding: 13px 20px; font-size: 1rem; }
